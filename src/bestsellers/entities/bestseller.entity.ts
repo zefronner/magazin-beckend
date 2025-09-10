@@ -32,4 +32,7 @@ export class BestsellerEntity {
 
   @Column({ type: 'simple-json' })
   images: string[];
+
+  @Column()
+  tag: string;
 }

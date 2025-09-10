@@ -24,4 +24,6 @@ export class CreateBestsellerDto {
 
     images: string[];
 
+    tag: string;
+
 }
