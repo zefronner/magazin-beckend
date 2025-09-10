@@ -5,6 +5,7 @@ async function bootstrap() {
   app.setGlobalPrefix('base');
   app.enableCors({
     origin: 'http://localhost:3000',
+    'https://magazin-beckend-production.up.railway.app'
     credentials: true,
   });
   await app.listen(process.env.PORT ?? 3000, () => {
