@@ -33,6 +33,6 @@ export class BestsellerEntity {
   @Column({ type: 'simple-json' })
   images: string[];
 
-  @Column()
+  @Column({ nullable: true })
   tag: string;
 }
